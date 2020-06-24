@@ -508,10 +508,6 @@ hr {
 #cta {
   padding: 30px 0;
 }
-.navbar{
-  background: #fff;
-  box-shadow: 0 2px 4px -1px rgba(173, 173, 173, 0.25);
-}
 
 .navbar-brand {
   position: relative;
@@ -650,7 +646,7 @@ hr {
 }
 
 .navbar li.active a.nav-link {
-  /* color: #preset; */
+  color: #preset;
 }
 
 .dropdown-toggle::after {
@@ -751,7 +747,7 @@ hr {
 3. Hero Area
 ========================================================================== */
 #hero-area {
-  background-image: url(../src/assets/img/hero-area.svg);
+  background-image: url(../img/hero-area.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1278,7 +1274,7 @@ textarea {
 
 /*cta
 */
-
+#cta{background: ;}
 
 /* Footer Area Start */
 .footer-area {
@@ -1417,7 +1413,4 @@ textarea {
 
 .social-icon .google:hover {
   background: #CE332A;
-}
-.map object{
-  border:0; height: 280px; width: 100%;
 }
